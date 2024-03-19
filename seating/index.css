@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#seatMap {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+   
+    grid-gap: 3px;
+   
+    width: max-content;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+.seat {
+    width: 20px;
+    
+    height: 20px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    transition: background-color 0.3s;
+  
+    border: 1px solid green;
+    border-radius: 5px;
+
+}
+
+.seat.selected-seat {
+    background-color: green;
+}
+
+.submit input[type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit input[type="submit"]:hover {
+    background-color: darkgreen;
+}

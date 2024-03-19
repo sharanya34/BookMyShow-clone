@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Movie Booking</title>
+</head>
+<body>
+    <h1>Movie Booking</h1>
+    
+    <label for="theaterSelect">Select Theater: </label>
+    <select id="theaterSelect"
+    >
+        
+    </select>
+    
+    <label for="movieSelect">Select Movie: </label>
+    <select id="movieSelect">
+        <option value="a">Movie A</option>
+        <option value="b">Movie B</option>
+        <option value="c">Movie C</option>
+        <option value="d">Movie D</option>
+        <option value="e">Movie E</option>
+    </select>
+
+    <br><br>
+    
+    <h2>Select Seats</h2>
+    <div id="seatMap"></div>
+    
+    <br>
+    
+    <div>
+        <p>Total Cost: <span id="totalCost">0.00</span></p>
+        <p>Seats Selected: <span id="seatsSelected">0</span></p>
+    </div>
+    <div>
+        <p>Prime Seat Price: <span id="primeSeatPrice">0.00</span></p>
+        <p>Classic Seat Price: <span id="classicSeatPrice">0.00</span></p>
+    </div>
+    <div class="submit">
+        <input type="submit">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

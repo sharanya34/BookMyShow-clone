@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+font-family: 'Mulish', sans-serif;
+}
+.fnav{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        background-color: rgb(42, 42, 68);
+        color: white;
+        padding: 6px;
+}
+.fnav img{
+    width: 19%;
+    color: white;
+    margin-inline: 22px;
+}
+.fnav .left{
+    display: flex;
+}
+.left input{
+    width: 420px;
+    height: 33px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.fnav .right{
+    display: flex;
+    margin-top: 11px;
+   
+}
+.right button{
+    width: 80px;
+    height: 27px;
+    background-color: rgb(252, 58, 91);
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+    margin-inline: 22px;
+    
+}
+.right button :hover {
+    cursor: pointer;
+}
+.right i{
+    font-size: 22px;
+    margin-inline: 22px;
+
+}
+.right select{
+    font-size: 19px;
+    margin-inline: 22px;
+    height: 30px;
+
+}
+
+
+
+  
+
+    .main img{
+        width: 100%;
+    }
+    .container h2{
+        text-align: center;
+        padding:22px ;
+    }
+    .container .card{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+
+    }
+    
+
+    .card a img {
+        width: 200px; /* Adjust the width as per your preference */
+        height: 300px; /* Adjust the height as per your preference */
+        margin-inline: 15px;
+        border-radius: 10px;
+    }
+    .banner img{
+        width: 100%;
+        margin-top: 33px;
+    }
+    .premiere{
+        background-color: rgb(15, 15, 29);
+        padding: 22px;
+        margin-top: 40px;
+        color: white;
+    }
+    .premiere  .containers{
+        margin-top: 33px;
+    }
+     .containers .card a img {
+        margin-top: 11px; 
+        margin-inline: 45px; 
+     }
+     
+     .footer{
+        background-color: rgb(238, 232, 232);
+        padding: 33px;
+        margin-top: 44px;
+     }
+     .footer img{
+       margin-left: 39%;
+        width: 22%;
+        border-top:2px solid gray ;
+     }
+     
